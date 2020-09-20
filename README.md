@@ -1,12 +1,11 @@
-=== INTRODUCTION ===
-The source code contained in this project implements an authenticated Diffie-Hellman key exchange between a client and a server, according to the message exchange protocol described on the Network Security course's page on Elly ("AuthenticatedKeyExchange-rev2.txt")
+# diffie-hellman-key-exchange
 
+## Introduction
+The source code contained in this project implements an authenticated Diffie-Hellman key exchange between a client and a server, according to the message exchange protocol described [here](https://github.com/francescovetere/diffie-hellman-key-exchange/edit/master/project-specs.txt)
 Binary messaging protocol has been chosen.
-In order to fulfill the requirements for a project composed by 3 students, option A is implemented (a localhost server's side of the protocol has been developed).
-
 The sources require at least Java 9.
 
-=== JAVA CLASSES ====
+## Java Classes
 The source code is organized in 5 Java classes:
 
 - ClientNetSec: Implements the client side of the protocol, assuming that server is located at netsec.unipr.it 
@@ -20,7 +19,7 @@ The source code is organized in 5 Java classes:
 - KeyGenerator: Implements a main program in which, using Utils' methods, a public-private key pair is generated, and then each key is stored in a .bin file. Finally, a simple correctness test is performed. 
 
 
-=== USAGE ===
+## Usage
 This exchange protocol can be executed either using the server located at netsec.unipr.it, or, in alternative, completely on localhost.
 
 First approach only requires one process to be run, ClientNetSec.
