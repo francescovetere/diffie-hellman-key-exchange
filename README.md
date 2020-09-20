@@ -34,5 +34,7 @@ Finally, ClientLocalhost's process must be run. It will establish a connection w
 
 ## Contributor(s)
 Francesco Vetere <<francescovetere1997@gmail.com>>
+
 Andrea Fois <<https://github.com/andreaf96/>>
+
 Giulia Magnani
