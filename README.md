@@ -1,6 +1,7 @@
 # diffie-hellman-key-exchange
 
 ## Introduction
+This is the final project for the course "Network Security" of my Master's Degree in Computer Engineering at University of Parma.
 The source code contained in this project implements an authenticated Diffie-Hellman key exchange between a client and a server, according to the message exchange protocol described [here](https://github.com/francescovetere/diffie-hellman-key-exchange/edit/master/project-specs.txt).
 
 Binary messaging protocol has been chosen.
