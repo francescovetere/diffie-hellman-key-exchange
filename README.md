@@ -1,7 +1,8 @@
 # diffie-hellman-key-exchange
 
 ## Introduction
-The source code contained in this project implements an authenticated Diffie-Hellman key exchange between a client and a server, according to the message exchange protocol described [here](https://github.com/francescovetere/diffie-hellman-key-exchange/edit/master/project-specs.txt)
+The source code contained in this project implements an authenticated Diffie-Hellman key exchange between a client and a server, according to the message exchange protocol described [here](https://github.com/francescovetere/diffie-hellman-key-exchange/edit/master/project-specs.txt).
+
 Binary messaging protocol has been chosen.
 The sources require at least Java 9.
 
@@ -30,3 +31,8 @@ First, KeyGenerator must be executed, in order to obtain two files "private-key.
 Private key will be used by local server for signing, public key will be used by local client for verifying.
 Once these two files are generated, Server's process must be run. It will wait until a client performs a connection request.
 Finally, ClientLocalhost's process must be run. It will establish a connection with local server, and protocol's execution will begin.
+
+## Contributor(s)
+Francesco Vetere <<francescovetere1997@gmail.com>>
+Andrea Fois <<https://github.com/andreaf96/>>
+Giulia Magnani
